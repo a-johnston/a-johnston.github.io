@@ -1,35 +1,14 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
-<div class='container'>
-    <div class='title readable'>
-        Test to get Theme Working
-    </div>
-    <div class='content readable'>
-    <div class='header readable'>
-        Some Random Header
-    </div>
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    </div>
-    <div class='content readable'>
-        <div class='header readable'>
-            Another Random Header
-        </div>
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    </div>
-    <div class='content readable'>
-        <div class='header readable'>
-            Another Random Header
-        </div>
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    </div>
-</div>
-</body>
+<body style="margin:0;background:#eee"> <!-- 🐬.🏘️ -->
+    <div style="height:10vh;height:5dvh;"></div>
+    <img id="imaj" style="display:block;margin:0 auto;width:90%;height:90vh;height:90dvh;object-fit:contain;object-position:center;">
+    <script>
+        const images = ["02880", "100_00387", "100_00422", "100_00432", "100_00566", "100_00596", "100_00702", "100_01647", "100_01659", "100_01768", "100_01834", "100_01893", "100_01962", "100_02012", "100_02177", "100_02622", "100_02754", "100_03037", "100_03041", "100_03127", "100_03262", "100_03290", "100_03433", "100_03641", "100_03777", "100_04200", "100_04538", "100_04795", "100_04852", "100_04929", "100_05077", "100_05325", "100_05334", "100_05594", "100_05797", "100_05829", "100_05865", "100_05915", "100_05980", "100_06109", "100_06112", "100_06134", "100_06212", "100_06272", "100_06409", "100_06456", "100_06531", "100_06578", "100_06741", "100_06779", "100_06939", "100_07002", "100_07211", "100_07271", "100_07304", "100_07338", "100_07538", "100_07554", "100_07562", "100_07566", "100_07574", "100_07641", "100_07643", "100_07908", "100_07914", "100_07946", "100_07991", "100_08076", "100_08345", "100_08359", "100_08429", "100_08623", "100_08638", "100_08860", "100_08889", "100_08896", "100_08910", "100_08917", "100_08970", "100_08971", "100_09028", "100_09061", "100_09103", "100_09136", "100_09271", "100_09286", "100_09336", "100_09350", "100_09398", "100_09434", "100_09463", "100_09520", "100_09538", "100_09552", "100_09588", "101_00463", "101_00468", "101_00550", "101_00965", "101_00997", "101_01792", "101_02272", "101_02397", "101_02437", "101_07609", "101_07734", "101_07745", "101_07826", "101_08227", "101_08294", "101_08301"];
+        document.getElementById('imaj').src = './images/' + encodeURIComponent(images[Math.floor(Math.random() * images.length)] + ".webp");
+    </script>
 </body>
 </html>
